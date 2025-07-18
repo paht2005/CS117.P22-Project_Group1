@@ -1,0 +1,42 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebooks (if any)
+*.ipynb
+
+# Ignore model weights and training checkpoints
+models/
+*.h5
+*.pt
+*.ckpt
+*.onnx
+
+# Ignore raw or large data files
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore demo output (videos, images, etc.)
+demo/
+*.mp4
+*.avi
+*.jpg
+*.png
+*.json
+
+# VSCode or other IDE config (optional)
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment and package manager files (if not needed)
+.env
+.venv/
